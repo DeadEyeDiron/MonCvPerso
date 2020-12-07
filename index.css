@@ -1,0 +1,87 @@
+/*ID DES 3 ZONE DE CONTENUS*/
+#menu{
+    margin-top: 2%;
+    background-color:red;
+    margin-left: 1%;
+}
+#BOXImage{
+    margin-top: 1%;
+    margin-bottom: -1%;
+    background-color: blue;
+    align-items: center;
+
+}
+#Text{
+    margin-top: 2%;
+    background-color: chartreuse;
+    text-align: center;
+    margin-right: 1%;
+}
+.col-xl-8{
+    max-width: 64%;;
+}
+ /*CLASS BOOTSTRAP*/
+.row{
+}
+.container-fluid{
+}
+
+/*Classe de modificaiton de l'image*/
+#Image{
+    align-items: center;
+    height: auto;
+    margin-top: 30%;
+    margin-bottom: 30%;
+}
+/*Logo du Bloc de Menu*/
+
+.fas.fa-align-justify{
+    font-size: xx-large;
+    padding-top: 30%;
+    padding-bottom: 100%; /*de base 150%*/
+    padding-right: 35%;
+    padding-left: 35%;
+}
+
+.fas.fa-user{
+    font-size: xx-large;
+    padding-bottom: 45%;
+    padding-right: 35%;
+    padding-left: 35%;
+    
+}
+
+.fas.fa-phone-alt{
+    font-size: xx-large;
+    padding-bottom: 45%;
+    padding-right: 35%;
+    padding-left: 35%;
+}
+
+.fas.fa-user-graduate{
+    font-size: xx-large;
+    padding-bottom: 45%;
+    padding-right: 35%;
+    padding-left: 35%;
+}
+
+.fas.fa-briefcase{
+    font-size: xx-large;
+    padding-bottom: 45%;
+    padding-right: 35%;
+    padding-left: 35%;
+}
+
+.fas.fa-hourglass-half{
+    font-size: xx-large;
+    padding-bottom: 45%;
+    padding-right: 40%;
+    padding-left: 40%;
+}
+.fas.fa-cloud-download-alt{
+    font-size: xx-large;
+    padding-top: 90%; /*De base : 40%*/
+    padding-right: 30%;
+    padding-left: 30%;
+    padding-bottom: 30%;
+}
