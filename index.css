@@ -89,20 +89,66 @@
 /*Bloc Des Coordonée*/
 
 #MCTH1{
-    text-emphasis-color: red;
+    color: red;
+    padding-top: 2%;
 }
 #Raw1{
-    padding-bottom: 3%;
+    padding-bottom: 5%;
+    align-items: center;
+    text-align: center;
+    color: royalblue;
 }
 #Raw2{
-    padding-bottom: 3%;
+    padding-bottom: 8%;
+    align-items: center;
+    color: cadetblue;
+    
 }
 #Raw3{
-    padding-bottom: 3%;
+    padding-bottom: 8%;
+    align-items: center;
+    color: firebrick;
 }
 #Raw4{
-    padding-bottom: 3%;
+    padding-bottom: 8%;
+    align-items: center;
+    color: turquoise;
 }
 #Raw5{
-    padding-bottom: 3%;
+    padding-bottom: 2%;
+    align-items: center;
+    color: rebeccapurple
+}
+.fas.fa-envelope{
+    font-size: xx-large; 
+}
+.fab.fa-facebook-square{
+    font-size: xx-large;
+}
+.fab.fa-github{
+    font-size: xx-large;
+}
+.far.fa-envelope{
+    font-size: xx-large;
+}
+.fab.fa-twitter-square{
+    font-size: xx-large;
+}
+.fab.fa-discord{
+    font-size: xx-large;
+}
+.fas.fa-mobile-alt{
+    font-size: xx-large;
+}
+.fab.fa-linkedin{
+    font-size: xx-large;
+}
+.fab.fa-skype{
+    font-size: xx-large;
+}
+.fas.fa-home{
+    font-size: xx-large;
+}
+.fab.fa-telegram{
+    font-size: xx-large;
 }
