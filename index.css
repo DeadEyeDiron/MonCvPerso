@@ -88,6 +88,14 @@
 
 /*Bloc Des Coordonée*/
 
+#TextCoord{
+    display: none;
+    margin-top: 2%;
+    background-color: chartreuse;
+    text-align: center;
+    margin-right: 1%;
+}
+
 #MCTH1{
     color: red;
     padding-top: 2%;
@@ -101,54 +109,74 @@
 #Raw2{
     padding-bottom: 8%;
     align-items: center;
-    color: cadetblue;
+    color: white;
     
 }
 #Raw3{
     padding-bottom: 8%;
     align-items: center;
-    color: firebrick;
+    color: white;
 }
 #Raw4{
     padding-bottom: 8%;
     align-items: center;
-    color: turquoise;
+    color: white;
 }
 #Raw5{
     padding-bottom: 2%;
     align-items: center;
-    color: rebeccapurple
+    color: white;
 }
 .fas.fa-envelope{
     font-size: xx-large; 
+    color: darkgrey;
 }
 .fab.fa-facebook-square{
     font-size: xx-large;
+    color: darkgrey;
 }
 .fab.fa-github{
     font-size: xx-large;
+    color: darkgrey;
 }
 .far.fa-envelope{
     font-size: xx-large;
+    color: darkgrey;
 }
 .fab.fa-twitter-square{
     font-size: xx-large;
+    color: darkgrey;
 }
 .fab.fa-discord{
     font-size: xx-large;
+    color: darkgrey;
 }
 .fas.fa-mobile-alt{
     font-size: xx-large;
+    color: darkgrey;
 }
 .fab.fa-linkedin{
     font-size: xx-large;
+    color: darkgrey;
 }
 .fab.fa-skype{
     font-size: xx-large;
+    color: darkgrey;
 }
 .fas.fa-home{
     font-size: xx-large;
+    color: darkgrey;
 }
 .fab.fa-telegram{
     font-size: xx-large;
+    color: darkgrey;
+}
+
+/*Bloc Formation*/
+
+#Forma{
+    margin-top: 2%;
+    background-color: chartreuse;
+    text-align: center;
+    margin-right: 1%;
 }
