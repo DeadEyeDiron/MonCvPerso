@@ -179,4 +179,19 @@
     background-color: chartreuse;
     text-align: center;
     margin-right: 1%;
+    display: none;
 }
+
+/*Bloc Expérience professionnel*/
+
+#ExpPro{
+    margin-top: 2%;
+    background-color: chartreuse;
+    text-align: center;
+    margin-right: 1%;
+}
+
+#carouselExampleIndicator{
+    margin-top: 10%;
+}
+
