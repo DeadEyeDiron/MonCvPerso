@@ -11,12 +11,7 @@
     align-items: center;
 
 }
-#Text{
-    margin-top: 2%;
-    background-color: chartreuse;
-    text-align: center;
-    margin-right: 1%;
-}
+
 .col-xl-8{
     max-width: 64%;;
 }
@@ -85,6 +80,25 @@
     padding-left: 30%;
     padding-bottom: 30%;
 }
+/*Bloc qui suis-je*/
+#Text{
+    margin-top: 2%;
+    background-color: chartreuse;
+    text-align: center;
+    margin-right: 1%;
+}
+
+#RawQSJI1{
+    margin-top: 30%;
+}
+
+#RawQSJI2{
+    margin-top: 20%
+}
+
+#progressBar1{
+    margin-bottom: 10%;
+}
 
 /*Bloc Des Coordonée*/
 
@@ -105,7 +119,7 @@
     align-items: center;
     text-align: center;
     color: royalblue;
-}
+}            
 #Raw2{
     padding-bottom: 8%;
     align-items: center;
@@ -189,6 +203,7 @@
     background-color: chartreuse;
     text-align: center;
     margin-right: 1%;
+    display: none;
 }
 
 #carouselExampleIndicator{

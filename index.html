@@ -48,16 +48,63 @@
                <!--Source de l'image-->
               <img id="Image" class="img-fluid center-blocks" src="photo.jpg" alt="photochien"/>
             </div>
-            <!--Bloc de contenus afin d'y ajouter des élement-->
-            <!--<div id="Text" class="col-xl-8">
-                <p>
-
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus mattis lacinia. Vivamus sed leo diam. Donec et neque enim. Suspendisse potenti. Nullam at rutrum neque. Sed quis nibh sed lectus eleifend molestie. Donec viverra ultricies nulla. Sed in justo non purus facilisis facilisis id ac odio. Nam fermentum vestibulum tortor ut auctor. Nam malesuada libero in tortor molestie, in fringilla nunc vestibulum. Ut faucibus aliquam velit, sit amet ultrices erat malesuada sed. Integer at purus lorem. Donec odio sapien, ultricies vel aliquet sit amet, aliquet vel nisl. Nullam congue id erat nec scelerisque.
-                    
-                    Quisque in magna ultrices, consectetur neque eu, pretium massa. Mauris eu eros nec dolor blandit lobortis. Sed ac ullamcorper mi. Suspendisse potenti. Praesent auctor mollis neque, sollicitudin iaculis ipsum blandit ac. Quisque quis quam augue. Proin luctus elit a est convallis congue. Donec vehicula diam ipsum, id ultricies arcu tempor at. Nullam luctus leo non egestas scelerisque. Praesent tincidunt nisl erat, at aliquam nisi finibus sed. Praesent nec ornare lorem. Donec blandit non ipsum ac pharetra.
-                
-                    Sed justo tortor, varius sed eros a, congue varius mauris. Etiam tortor enim, viverra faucibus risus quis, pretium viverra elit. Donec risus lorem, ultrices vel pretium a, blandit eget diam. Morbi mattis sem quis lorem tempus, a ultrices elit commodo. Donec in turpis urna. Duis laoreet tellus sit amet vulputate consequat. Duis luctus varius iaculis. In id tortor fermentum, hendrerit neque at, malesuada augue. Sed augue leo, eleifend non augue in, vestibulum dapibus est. Donec sit amet tellus orci. Phasellus quis lacus blandit, pretium est ac, volutpat mi. </p>
-            </div>-->
+            <!--Bloc de contenus : Qui Suis-je-->
+            <div id="Text" class="col-xl-8">
+              <!--Petite phrase de bienvneue a retiré si il faut -->
+              <H1 id="MCTH1">Bienvenue sur mon site</H1> 
+              <!--Intitulé de la page-->
+              <H2 id="MCTH1">Qui Suis-Je</H2>
+              <div id="Raw1" class="row">
+                <div class="col-xl"></div>
+                <div class="col-xl-5">
+                  <div id="RawQSJI1" class="row">
+                    <!--Colone des intitulé des renseignement-->
+                    <div class="col-xl-6">
+                      <p class="QSJp">Nom :</p>
+                      <p class="QSJp">Prenom :</p>
+                      <p class="QSJp">Age :</p>
+                      <p class="QSJp">Née :</p>
+                      <p class="QSJp">Nationalité : </p>
+                      <p class="QSJp">Permis : </p>
+                      <p class="QSJp">Situation familliale :</p>
+                    </div>
+                    <div class="col-xl-6">
+                      <!--Colonne des renseignement-->
+                      <p class="QSJp">Dupont</p>
+                      <p class="QSJp">Thomas</p>
+                      <p class="QSJp">99 ans</p>
+                      <p class="QSJp">42/42/4242</p>
+                      <p class="QSJp">Français</p>
+                      <p class="QSJp">Motojet</p> 
+                      <p class="QSJp">Célibataire</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-5">
+                  <!--Liste des atouts de la personne-->
+                  <div id="RawQSJI2" class="row">
+                    <h4>Mes Atout</h4>
+                      <p>Travail d'équipe</p>
+                      <p>Maniaque</p>
+                      <p>Autonome</p>
+                  </div>
+                  <div id="RawQSJI2" class="row">
+                    <!--Liste des langue parler-->
+                          <p>Anglais</p>
+                          <div id="progressBar1" class="progress"> <!--TODO : taille des progresseBar-->
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                          </div>
+                          <p>ESpagnol</p>
+                          <div id="progressBar1" class="progress"> <!--TODO : Taille des progessBar-->
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-xl"></div>
+              </div>
+               
+            
+            </div>
 
             <!--Bloc de contenus : Mes Coordonée-->
             <div id="TextCoord" class="col-xl-8">
@@ -318,7 +365,7 @@
                 <li data-bs-target="#carouselExampleIndicator" data-bs-slide-to="3"></li>
                 <li data-bs-target="#carouselExampleIndicator" data-bs-slide-to="4"></li>
               </ol>
-              <div class="carousel-inner">
+              <div class="carousel-inner"> <!--Page 1-->
                 <div class="carousel-item active">
                   <div class="row">
                     <div class="col-xl-2"></div>
@@ -357,7 +404,7 @@
                     <div class="col-xl-2"></div>
                   </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item"> <!--Page 2-->
                   <div class="row">
                     <div class="col-xl-2"></div>
                     <div class="col-xl-4">
@@ -395,7 +442,7 @@
                     <div class="col-xl-2"></div>
                   </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item"> <!--Page 3-->
                   <div class="row">
                     <div class="col-xl-2"></div>
                     <div class="col-xl-4">
@@ -431,8 +478,9 @@
                       <!--balise p pour la mention ou lien-->
                     </div>
                     <div class="col-xl-2"></div>
+                  </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item"> <!--Page 4-->
                   <div class="row">
                     <div class="col-xl-2"></div>
                     <div class="col-xl-4">
@@ -468,8 +516,9 @@
                       <!--balise p pour la mention ou lien-->
                     </div>
                     <div class="col-xl-2"></div>
+                    </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item"> <!-- Page 5 -->
                   <div class="row">
                     <div class="col-xl-2"></div>
                     <div class="col-xl-4">
@@ -517,7 +566,7 @@
               </a>
             </div>
           </div>
-
+          <!-- TODO : Faire la partie divertissement-->
         </div>
     </div>
   </body>
