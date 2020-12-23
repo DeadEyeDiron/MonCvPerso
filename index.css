@@ -31,7 +31,7 @@
 }
 /*Logo du Bloc de Menu*/
 
-.fas.fa-align-justify{
+.fas.fa-align-justify#Large{
     font-size: xx-large;
     padding-top: 30%;
     padding-bottom: 100%; /*de base 150%*/
@@ -39,7 +39,7 @@
     padding-left: 35%;
 }
 
-.fas.fa-user{
+.fas.fa-user#Large{
     font-size: xx-large;
     padding-bottom: 45%;
     padding-right: 35%;
@@ -47,34 +47,34 @@
     
 }
 
-.fas.fa-phone-alt{
+.fas.fa-phone-alt#Large{
     font-size: xx-large;
     padding-bottom: 45%;
     padding-right: 35%;
     padding-left: 35%;
 }
 
-.fas.fa-user-graduate{
+.fas.fa-user-graduate#Large{
     font-size: xx-large;
     padding-bottom: 45%;
     padding-right: 35%;
     padding-left: 35%;
 }
 
-.fas.fa-briefcase{
+.fas.fa-briefcase#Large{
     font-size: xx-large;
     padding-bottom: 45%;
     padding-right: 35%;
     padding-left: 35%;
 }
 
-.fas.fa-hourglass-half{
+.fas.fa-hourglass-half#Large{
     font-size: xx-large;
     padding-bottom: 45%;
     padding-right: 40%;
     padding-left: 40%;
 }
-.fas.fa-cloud-download-alt{
+.fas.fa-cloud-download-alt#Large{
     font-size: xx-large;
     padding-top: 90%; /*De base : 40%*/
     padding-right: 30%;
@@ -241,15 +241,47 @@
     margin-top: 3%;
 }
 
-/*Modification theme ecran Md*/
+/*Modification theme ecran Md SM XS*/
 
-/*Bloc Menu*/
+/*Tempalte Général*/
 
-/*.col-md-1#menu{
-    background-color: yellow;
-    margin-top: 0%;
-    margin-left: 0%;
-    margin-right: 0%;
-    margin-bottom: 0%;
+#Menu2{
+    background-color: red;
+}
+
+#BoxImage2{
+    background-color: blue;
+}
+
+#Contenue{
+    background-color: greenyellow;
+}
+
+/*Propriété Menu*/
+#Ijustify{
+
+}
+
+#Iuser{
     
-}*/
+}
+
+#Iphones{
+    
+}
+
+#Igraduate{
+    
+}       
+
+#Ibriefcase{
+    
+}
+
+#Ihourglass{
+    
+}
+
+#Iclouds{
+    
+}
