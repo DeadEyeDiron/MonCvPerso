@@ -7,7 +7,7 @@
 #BOXImage{
     margin-top: 1%; /*1%*/
     margin-bottom: -1%; /*-1%*/
-    background-color: blue;
+    background-color: rgb(229, 229, 236);
     align-items: center;
 
 }
@@ -251,6 +251,7 @@
 
 #BoxImage2{
     background-color: blue;
+    
 }
 
 #Contenue{
@@ -259,29 +260,29 @@
 
 /*Propriété Menu*/
 #Ijustify{
-
+    font-size: xx-large;
 }
 
 #Iuser{
-    
+    font-size: xx-large;
 }
 
 #Iphones{
-    
+    font-size: xx-large;
 }
 
 #Igraduate{
-    
+    font-size: xx-large;
 }       
 
 #Ibriefcase{
-    
+    font-size: xx-large;
 }
 
 #Ihourglass{
-    
+    font-size: xx-large;
 }
 
 #Iclouds{
-    
+    font-size: xx-large;
 }
