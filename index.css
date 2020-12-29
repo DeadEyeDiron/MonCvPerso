@@ -87,7 +87,7 @@
     background-color: chartreuse;
     text-align: center;
     margin-right: 1%;
-    display: none;
+    /*display: none;*/
 }
 
 #RawQSJI1{
@@ -285,4 +285,29 @@
 
 #Iclouds{
     font-size: xx-large;
+}
+
+/*Conteneur Qui suis je en médium*/
+
+/*Paramétre Titre Médium H1*/
+#H1T1{
+    text-align: center;
+    color: red;
+}
+/*Paramétre Titre Médium H2*/
+#H2T1{
+    text-align: center;
+    color: red;
+}
+
+#Contenue{
+    /*display: none;*/
+}
+
+#MDP{
+    text-align: center;
+}
+
+#MDP1{
+    margin-top: 10%;
 }
