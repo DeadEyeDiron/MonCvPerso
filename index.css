@@ -301,7 +301,7 @@
 }
 
 #Contenue{
-    /*display: none;*/
+    display: none;
 }
 
 #MDP{
@@ -310,4 +310,15 @@
 
 #MDP1{
     margin-top: 10%;
+}
+
+#Colligne{
+    color: greenyellow;
+}
+
+/*Parametre Box Coordonée Médium*/
+
+#CoordMD{
+    background-color: greenyellow;
+
 }
