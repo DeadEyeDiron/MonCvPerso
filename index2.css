@@ -1,0 +1,17 @@
+/*Couleur du body*/
+body{
+    /*background-color: black;*/
+}
+/*ID DES 3 ZONE*/
+
+#Menu{
+    background-color: greenyellow;
+}
+
+#Image{
+    background-color: blue;
+}
+
+#Text{
+    background-color: blueviolet;
+}
