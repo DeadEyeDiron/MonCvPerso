@@ -15,3 +15,36 @@ body{
 #Text{
     background-color: blueviolet;
 }
+
+/*Taille des icones*/
+
+/*Logo du Bloc de Menu*/
+
+.fas.fa-align-justify{
+    font-size: xx-large;
+}
+
+.fas.fa-user{
+    font-size: xx-large;
+    
+}
+
+.fas.fa-phone-alt{
+    font-size: xx-large;
+}
+
+.fas.fa-user-graduate{
+    font-size: xx-large;
+}
+
+.fas.fa-briefcase{
+    font-size: xx-large;
+}
+
+.fas.fa-hourglass-half{
+    font-size: xx-large;
+
+}
+.fas.fa-cloud-download-alt{
+    font-size: xx-large;
+}
