@@ -48,3 +48,10 @@ body{
 .fas.fa-cloud-download-alt{
     font-size: xx-large;
 }
+
+/*Classe de modificaiton de l'image*/
+/*NFP = Ne Fonctionne Pas*/
+#PhotoProfils{
+    max-width: 100%;
+    height: auto;
+}

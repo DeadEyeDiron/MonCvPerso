@@ -1,20 +1,21 @@
- <!--Icon de menu : Etendre le menu pour ajouter du texte-->
-                <span class="d-flex align-items-xl-start align-middle">
-                <i id="Large" class="fas fa-align-justify d-flex align-items-xl-start align-middle"><a href="index.html"></a></a></i>
-                </span>
-                <span class="d-flex align-items-xl-center align-middle">
-                <!--Icon User : Direction du contenus Qui suis Je ?-->
-                <i id="Large" class="fas fa-user d-flex align-items-xl-center align-middle"><a href="Autre Page/quisuisje.html"></a></i> 
-                <!--Icon Telephone : Direction du contenus Me contacter-->
-                <i id="Large" class="fas fa-phone-alt d-flex align-items-xl-center align-middle"><a href="Autre Page/coordonnee.html"></a></i>
-                <!--Icon User-graduate : Direction du contenu Mes Formation-->
-                <i id="Large" class="fas fa-user-graduate d-flex align-items-xl-center align-middle"><a href="Autre Page/formation.html"></a></i>
-                <!--Icon Briedncase : Direction du contenu Mes Expérience Professionel-->
-                <i id="Large" class="fas fa-briefcase d-flex align-items-xl-center align-middle"><a href="Autre Page/experience.html"></a></i>
-                <!--Icon Hourglass-half : Direction Mes hobbies-->
-                <i id="Large" class="fas fa-hourglass-half d-flex align-items-xl-center align-middle"><a href="Autre Page/hobbies.html"></a></i>
-                </span>
-                <span class="d-flex align-items-xl-end align-middle">
-                <!--Icon Cloud-download-alt : Telechargement du cv-->
-                <i id="Large" class="fas fa-cloud-download-alt d-flex align-items-xl-end align-middle"></i>
-                </span>
+Icone 1
+pe-sm-5 ps-sm-4
+
+Icone 2
+pe-sm-5 ps-sm-5
+
+Icone 3
+pe-sm-5
+
+Icone 4
+pe-sm-5
+
+Icone 5
+pe-sm-5
+
+Icone 6
+pe-sm-5
+
+Icone 7
+ps-sm-5
+
