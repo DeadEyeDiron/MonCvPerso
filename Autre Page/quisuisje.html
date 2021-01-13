@@ -27,11 +27,11 @@
             <div id="Menu" class="h-300 col-xl-1 mt-xl-4 mb-xl-2 d-flex flex-xl-column justify-content-lg-center justify-content-md-center justify-content-sm-center">
               <!--Icone Du Retour A l'Index-->
               <div class="row text-center pb-xl-5 pt-xl-4 pe-xl-0 ps-xl-0 pe-lg-5 ps-lg-4 pe-md-5 ps-md-4 pe-sm-5 ps-sm-4 pe-xs-1 ps-xs-1">
-                <div class="col"> <i id="Large" class="fas fa-align-justify"><a href="index.html"></a></a></i></div>
+                <div class="col"><a href="index.html"><i id="Large" class="fas fa-align-justify"></i></a></div>
               </div>
               <!--Icone User : Direction vers Qui Suis-Je -->
               <div class="row text-center pb-xl-5 pt-xl-5 pe-xl-0 ps-xl-0 pe-lg-5 ps-lg-5 pe-md-5 ps-md-5 pe-sm-5 ps-sm-5 pe-xs-1 ps-xs-1">
-                <div class="col"><i id="Large" class="fas fa-user"><a href="Autre Page/quisuisje.html"></a></i></div>
+                <div class="col"><a href="Autre Page/quisuisje.html"><i id="Large" class="fas fa-user"></i></a></div>
               </div>
               <!--Icone Telephone : Direction Vers mes coordonnée-->
               <div class="row text-center pb-xl-5 pe-xl-0 ps-xl-0 pe-lg-5 pe-md-5 pe-sm-5 pe-xs-1">
@@ -50,7 +50,7 @@
                 <div class="col"><i id="Large" class="fas fa-hourglass-half"><a href="Autre Page/hobbies.html"></a></i></div>
               </div>
               <!--Icone Cloud-download-alt : Telecharge le Cv pdf-->
-              <div class="row text-center pt-xl-5 pe-xl-0 ps-xl-0 ps-lg-5 ps-md-5 ps-sm-5 ps-xs-1">
+              <div class="row text-center pt-xl-5 pe-xl-0 ps-xl-0 ps-lg-5 ps-md-5 ps-sm-5 ps-xs-1 pb-xl-4">
                 <div class="col"><i id="Large" class="fas fa-cloud-download-alt "></i></div>
               </div>
             </div>
@@ -66,44 +66,53 @@
             </div>
             <!--Text-->
             <div id="Text" class=" col-xl-8 mt-xl-4 mb-xl-2 a">
-                <h1 class="text-center">Qui Suis-je</h1>
+                <h1 class="text-center pt-4">Qui Suis-je</h1>
                 <div class="row ps-xl-5 pe-xl-5 pt-xl-5">
                   <div class="col-xl-4">
                     <div class="row">
-                      <div class="col-6">
-                        <p class="">Nom :</p>
-                        <p class="">Prenom :</p>
-                        <p class="">Age :</p>
-                        <p class="">Née :</p>
-                        <p class="">Nationalité : </p>
-                        <p class="">Permis : </p>
-                        <p class="">Situation familliale :</p>
-                      </div>
-                      <div class="col-6">
-                        <p class="">Dupont</p>
-                        <p class="">Thomas</p>
-                        <p class="">99 ans</p>
-                        <p class="">42/42/4242</p>
-                        <p class="">Français</p>
-                        <p class="">Motojet</p> 
-                        <p class="">Célibataire</p>
-                      </div>
+                      <table>
+                        <thead>
+                            <tr>
+                                <th class="text-center pb-xl-5" colspan="2">Petite Présentation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="border-bottom border-info text-xl-start text-lg-center text-md-center text-sm-center text-xs-center">
+                              <td><p>Nom :</p></td>
+                              <td><p>Dupont</p></td>
+                            </tr>
+                            <tr class="border-bottom border-info text-xl-start text-lg-center text-md-center text-sm-center text-xs-center">
+                              <td><p>Prenom :</p></td>
+                              <td><p>Thomas</p></td>
+                            </tr>
+                            <tr class="border-bottom border-info text-xl-start text-lg-center text-md-center text-sm-center text-xs-center">
+                              <td><p>Age :</p></td>
+                              <td><p>99 ans</p></td>
+                            </tr>
+                            <tr class="border-bottom border-info text-xl-start text-lg-center text-md-center text-sm-center text-xs-center">
+                              <td><p>Née :</p></td>
+                              <td><p>42/42/4242</p></td>
+                            </tr>
+                            <tr class="border-bottom border-info text-xl-start text-lg-center text-md-center text-sm-center text-xs-center">
+                              <td><p>Nationalité:</p></td>
+                              <td><p>Francais</p></td>
+                            </tr>
+                            <tr class="border-bottom border-info text-xl-start text-lg-center text-md-center text-sm-center text-xs-center">
+                              <td><p>Permis:</p></td>
+                              <td><p>Motojet</p></td>
+                            </tr>
+                            <tr class="text-xl-start text-lg-center text-md-center text-sm-center text-xs-center">
+                              <td><p>situation familliale:</p></td>
+                              <td><p>Célibataire</p></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
                     </div>
                   </div>
                   <div class="col-xl border-end border-info"></div>
-                  <div class="col-xl-6 offset-xl-0 offset-lg-0 ps-xl-5">
+                  <div class="col-xl-6 offset-xl-0 offset-lg-0 ps-xl-5 pt-xl-0 pt-lg-5">
                     <div class="row">
-                      <!--<h2 class="text-center">Mes atouts</h2>
-                      <div class="col-6 ">
-                        <div class="ps-xl-5"><i id="Large" class="fas fa-hourglass-half"></i></div>
-                        <div class="ps-xl-5"><i id="Large" class="fas fa-hourglass-half"></i></div>
-                        <div class="ps-xl-5"><i id="Large" class="fas fa-hourglass-half"></i></div>
-                      </div>
-                      <div class="col-6">
-                        <p class="pe-xl-5">Travail d'équipe</p>
-                        <p class="pe-xl-5">Maniaque</p>
-                        <p class="pe-xl-5">Autonome</p>
-                      </div> -->
                       <table>
                         <thead>
                             <tr>
@@ -127,23 +136,36 @@
                         </tbody>
                     </table>
                     </div>
-                    <div class="row">
-                      <div class="col-4">
-                        <div class="row"><p>Anglais</p></div>
-                        <div class="row"><p>Espagnol</p></div>
-                      </div>
-                      <div class="col-8">
-                        <div class="row">
-                          <div id="progressBar1" class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div id="progressBar1" class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-                          </div>
-                        </div>
-                      </div>
+                    <div class="row pt-xl-5 pt-lg-5">
+                      <table>
+                        <thead>
+                            <tr>
+                                <th class="text-center pb-xl-4" colspan="2">Les Langues Parlée</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="border-bottom border-info">
+                                <td><p class="text-center">Esperanto</p></td>
+                                <td class="ps-xl-5">
+                                  <button type="button" class="btn btn-warning w-50 ">Basic</button>
+                                </td>
+                            </tr>
+                            <tr class="border-bottom border-info">
+                              <td><p class="text-center">Anglais</p></td>
+                              <td class="ps-xl-5">
+                                <button type="button" class="btn btn-warning w-50">Scolaire</button>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><p class="text-center">Espagnol</p></td>
+                              <td class="ps-xl-5">
+                                <button type="button" class="btn btn-warning w-50">Notion</button>
+                              </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
                     </div>
                   </div>
                 </div>
