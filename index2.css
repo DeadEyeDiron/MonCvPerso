@@ -55,3 +55,49 @@ body{
     max-width: 100%;
     height: auto;
 }
+
+/*Classe de modification des logo des Réseaux sociaux*/
+.fas.fa-envelope{
+    font-size: xx-large; 
+    color: darkgrey;
+}
+.fab.fa-facebook-square{
+    font-size: xx-large;
+    color: darkgrey;
+}
+.fab.fa-github{
+    font-size: xx-large;
+    color: darkgrey;
+}
+.far.fa-envelope{
+    font-size: xx-large;
+    color: darkgrey;
+}
+.fab.fa-twitter-square{
+    font-size: xx-large;
+    color: darkgrey;
+}
+.fab.fa-discord{
+    font-size: xx-large;
+    color: darkgrey;
+}
+.fas.fa-mobile-alt{
+    font-size: xx-large;
+    color: darkgrey;
+}
+.fab.fa-linkedin{
+    font-size: xx-large;
+    color: darkgrey;
+}
+.fab.fa-skype{
+    font-size: xx-large;
+    color: darkgrey;
+}
+.fas.fa-home{
+    font-size: xx-large;
+    color: darkgrey;
+}
+.fab.fa-telegram{
+    font-size: xx-large;
+    color: darkgrey;
+}
