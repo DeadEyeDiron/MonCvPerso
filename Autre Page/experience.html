@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="FR">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--FontAwesome CSS-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../index2.css"></link>
+    <title>CV TITRE</title>
+  </head>
+  <body>
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!--Appel le container de Bootstrap-->
+    <div class="container-fluid">
+        <div class="row">
+            <!--Menu-->
+            <div id="Menu" class="h-300 col-xl-1 mt-xl-4 mb-xl-2 d-flex flex-xl-column justify-content-lg-center justify-content-md-center justify-content-sm-center">
+              <!--Icone Du Retour A l'Index-->
+              <div class="row text-center pb-xl-5 pt-xl-4 pe-xl-0 ps-xl-0 pe-lg-5 ps-lg-4 pe-md-5 ps-md-4 pe-sm-5 ps-sm-4 pe-xs-1 ps-xs-1">
+                <div class="col"><a href="index.html"><i id="Large" class="fas fa-align-justify"></i></a></div>
+              </div>
+              <!--Icone User : Direction vers Qui Suis-Je -->
+              <div class="row text-center pb-xl-5 pt-xl-5 pe-xl-0 ps-xl-0 pe-lg-5 ps-lg-5 pe-md-5 ps-md-5 pe-sm-5 ps-sm-5 pe-xs-1 ps-xs-1">
+                <div class="col"><a href="quisuisje.html"><i id="Large" class="fas fa-user"></i></a></div>
+              </div>
+              <!--Icone Telephone : Direction Vers mes coordonnée-->
+              <div class="row text-center pb-xl-5 pe-xl-0 ps-xl-0 pe-lg-5 pe-md-5 pe-sm-5 pe-xs-1">
+                <div class="col"><a href="coordonnee.html"><i id="Large" class="fas fa-phone-alt"></i></a></div>
+              </div>
+              <!--Icone User Graduate : Direction vers Mes diplomes-->
+              <div class="row text-center pb-xl-5 pe-xl-0 ps-xl-0 pe-lg-5 pe-md-5 pe-sm-5 pe-xs-1">
+                <div class="col"><a href="formation.html"><i id="Large" class="fas fa-user-graduate"></i></a></div>
+              </div>
+              <!--Icone BriefCase : Direction vers Mes experience -->
+              <div class="row text-center pb-xl-5 pe-xl-0 ps-xl-0 pe-lg-5 pe-md-5 pe-sm-5 pe-xs-1">
+                <div class="col"><a href="experience.html"><i id="Large" class="fas fa-briefcase"></i></a></div>
+              </div>
+              <!--Icone Hourglass-half : Direction vers mes hobbies-->
+              <div class="row text-center pb-xl-5 pe-xl-0 ps-xl-0 pe-lg-5 pe-md-5 pe-sm-5 pe-xs-1">
+                <div class="col"><a href="hobbies.html"><i id="Large" class="fas fa-hourglass-half"></i></a</div>
+              </div>
+              <!--Icone Cloud-download-alt : Telecharge le Cv pdf-->
+              <div class="row text-center pt-xl-5 pe-xl-0 ps-xl-0 ps-lg-5 ps-md-5 ps-sm-5 ps-xs-1 pb-xl-4">
+                <div class="col"><i id="Large" class="fas fa-cloud-download-alt "></i></div>
+              </div>
+            </div>
+            <!--Image-->
+            <div id="Image" class=" col-xl-3 mt-xl-3 ">
+                <!--Source de l'image-->
+              <!--<img id="PhotoProfils" class="img-fluid center-blocks mx-auto" src="../photo.jpg" alt="photochien"/>-->
+              <div class="row h-100 align-items-center">
+                <div class="d-xl-none col-lg-3 col-md-3 col-sm-3"></div>
+                <div class="col mx-auto "><img id="PhotoProfils" class="img-fluid center-blocks" src="../photo.jpg" alt="photochien"/></div>
+                <div class="d-xl-none col-lg-3 col-md-3 col-sm-3"></div>
+              </div>
+            </div>
+            <!--Text-->
+            <div id="Text" class=" col-xl-8 mt-xl-4 mb-xl-2 a">
+                <!--Titre de la page-->
+            <H1 id="MCTH1">Mon expérience professionnel</H1>
+            <!--Carousel contenant les formations-->
+            <div id="carouselExampleIndicator" class="carousel slide" data-bs-ride="carousel" data-interval="pause">
+              <ol class="carousel-indicators">
+                <li data-bs-target="#carouselExampleIndicator" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselExampleIndicator" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselExampleIndicator" data-bs-slide-to="2"></li>
+                <li data-bs-target="#carouselExampleIndicator" data-bs-slide-to="3"></li>
+                <li data-bs-target="#carouselExampleIndicator" data-bs-slide-to="4"></li>
+              </ol>
+              <div class="carousel-inner"> <!--Page 1-->
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-xl-2"></div>
+                    <div class="col-xl-4">
+                      <h1>NOM du poste</h1> <!--Nom de la formation-->
+                      <strong>entreprise - ville</strong> <!--Nom de l'école-->
+                      </br>
+                      <em>2020-2021</em> <!--Annnée de formation-->
+                      </br>
+                      <p>- Task 1</p>
+                      <p>- Task 2</p>
+                      <p>- Task 3</p>
+                      <p>- Task 4</p>
+                      <p>- Task 5</p>
+                      <p>- Task 6</p>
+                      <p>- Task 7</p>
+                      </br>
+                      <!--balise p pour la mention ou lien-->
+                    </div>
+                    <div class="col-xl-4">
+                      <h1>NOM du poste</h1> <!--Nom de la formation-->
+                      <strong>entreprise - ville</strong> <!--Nom de l'école-->
+                      </br>
+                      <em>2020-2021</em> <!--Annnée de formation-->
+                      </br>
+                      <p>- Task 1</p>
+                      <p>- Task 2</p>
+                      <p>- Task 3</p>
+                      <p>- Task 4</p>
+                      <p>- Task 5</p>
+                      <p>- Task 6</p>
+                      <p>- Task 7</p>
+                      </br>
+                      <!--balise p pour la mention ou lien-->
+                    </div>
+                    <div class="col-xl-2"></div>
+                  </div>
+                </div>
+                <div class="carousel-item"> <!--Page 2-->
+                  <div class="row">
+                    <div class="col-xl-2"></div>
+                    <div class="col-xl-4">
+                      <h1>NOM du poste</h1> <!--Nom de la formation-->
+                      <strong>entreprise - ville</strong> <!--Nom de l'école-->
+                      </br>
+                      <em>2020-2021</em> <!--Annnée de formation-->
+                      </br>
+                      <p>- Task 1</p>
+                      <p>- Task 2</p>
+                      <p>- Task 3</p>
+                      <p>- Task 4</p>
+                      <p>- Task 5</p>
+                      <p>- Task 6</p>
+                      <p>- Task 7</p>
+                      </br>
+                      <!--balise p pour la mention ou lien-->
+                    </div>
+                    <div class="col-xl-4">
+                      <h1>NOM du poste</h1> <!--Nom de la formation-->
+                      <strong>entreprise - ville</strong> <!--Nom de l'école-->
+                      </br>
+                      <em>2020-2021</em> <!--Annnée de formation-->
+                      </br>
+                      <p>- Task 1</p>
+                      <p>- Task 2</p>
+                      <p>- Task 3</p>
+                      <p>- Task 4</p>
+                      <p>- Task 5</p>
+                      <p>- Task 6</p>
+                      <p>- Task 7</p>
+                      </br>
+                      <!--balise p pour la mention ou lien-->
+                    </div>
+                    <div class="col-xl-2"></div>
+                  </div>
+                </div>
+                <div class="carousel-item"> <!--Page 3-->
+                  <div class="row">
+                    <div class="col-xl-2"></div>
+                    <div class="col-xl-4">
+                      <h1>NOM du poste</h1> <!--Nom de la formation-->
+                      <strong>entreprise - ville</strong> <!--Nom de l'école-->
+                      </br>
+                      <em>2020-2021</em> <!--Annnée de formation-->
+                      </br>
+                      <p>- Task 1</p>
+                      <p>- Task 2</p>
+                      <p>- Task 3</p>
+                      <p>- Task 4</p>
+                      <p>- Task 5</p>
+                      <p>- Task 6</p>
+                      <p>- Task 7</p>
+                      </br>
+                      <!--balise p pour la mention ou lien-->
+                    </div>
+                    <div class="col-xl-4">
+                      <h1>NOM du poste</h1> <!--Nom de la formation-->
+                      <strong>entreprise - ville</strong> <!--Nom de l'école-->
+                      </br>
+                      <em>2020-2021</em> <!--Annnée de formation-->
+                      </br>
+                      <p>- Task 1</p>
+                      <p>- Task 2</p>
+                      <p>- Task 3</p>
+                      <p>- Task 4</p>
+                      <p>- Task 5</p>
+                      <p>- Task 6</p>
+                      <p>- Task 7</p>
+                      </br>
+                      <!--balise p pour la mention ou lien-->
+                    </div>
+                    <div class="col-xl-2"></div>
+                  </div>
+                </div>
+                <div class="carousel-item"> <!--Page 4-->
+                  <div class="row">
+                    <div class="col-xl-2"></div>
+                    <div class="col-xl-4">
+                      <h1>NOM du poste</h1> <!--Nom de la formation-->
+                      <strong>entreprise - ville</strong> <!--Nom de l'école-->
+                      </br>
+                      <em>2020-2021</em> <!--Annnée de formation-->
+                      </br>
+                      <p>- Task 1</p>
+                      <p>- Task 2</p>
+                      <p>- Task 3</p>
+                      <p>- Task 4</p>
+                      <p>- Task 5</p>
+                      <p>- Task 6</p>
+                      <p>- Task 7</p>
+                      </br>
+                      <!--balise p pour la mention ou lien-->
+                    </div>
+                    <div class="col-xl-4">
+                      <h1>NOM du poste</h1> <!--Nom de la formation-->
+                      <strong>entreprise - ville</strong> <!--Nom de l'école-->
+                      </br>
+                      <em>2020-2021</em> <!--Annnée de formation-->
+                      </br>
+                      <p>- Task 1</p>
+                      <p>- Task 2</p>
+                      <p>- Task 3</p>
+                      <p>- Task 4</p>
+                      <p>- Task 5</p>
+                      <p>- Task 6</p>
+                      <p>- Task 7</p>
+                      </br>
+                      <!--balise p pour la mention ou lien-->
+                    </div>
+                    <div class="col-xl-2"></div>
+                    </div>
+                </div>
+                <div class="carousel-item"> <!-- Page 5 -->
+                  <div class="row">
+                    <div class="col-xl-2"></div>
+                    <div class="col-xl-4">
+                      <h1>NOM du poste</h1> <!--Nom de la formation-->
+                      <strong>entreprise - ville</strong> <!--Nom de l'école-->
+                      </br>
+                      <em>2020-2021</em> <!--Annnée de formation-->
+                      </br>
+                      <p>- Task 1</p>
+                      <p>- Task 2</p>
+                      <p>- Task 3</p>
+                      <p>- Task 4</p>
+                      <p>- Task 5</p>
+                      <p>- Task 6</p>
+                      <p>- Task 7</p>
+                      </br>
+                      <!--balise p pour la mention ou lien-->
+                    </div>
+                    <div class="col-xl-4">
+                      <h1>NOM du poste</h1> <!--Nom de la formation-->
+                      <strong>entreprise - ville</strong> <!--Nom de l'école-->
+                      </br>
+                      <em>2020-2021</em> <!--Annnée de formation-->
+                      </br>
+                      <p>- Task 1</p>
+                      <p>- Task 2</p>
+                      <p>- Task 3</p>
+                      <p>- Task 4</p>
+                      <p>- Task 5</p>
+                      <p>- Task 6</p>
+                      <p>- Task 7</p>
+                      </br>
+                      <!--balise p pour la mention ou lien-->
+                    </div>
+                    <div class="col-xl-2"></div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicator" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicator" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </a>
+            </div>
+        </div>
+    <!-- Fin Div du début -->
+    </div>
+  </body>
+</html>
