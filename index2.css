@@ -101,3 +101,45 @@ body{
     font-size: xx-large;
     color: darkgrey;
 }
+
+/*Classe de modification des hobbies*/
+.fas.fa-running{
+    font-size: xx-large;
+    color: darkgrey;
+}
+.fas.fa-medal{
+    font-size: xx-large;
+    color: darkgrey;
+}
+.fas.fa-tv{
+    font-size: xx-large;
+    color: darkgrey;
+}
+.fas.fa-rocket{
+    font-size: xx-large;
+    color: darkgrey;
+}
+.fab.fa-jedi-order{
+    font-size: xx-large;
+    color: darkgrey;
+}
+.fab.fa-old-republic{
+    font-size: xx-large;
+    color: darkgrey;
+}
+.fas.fa-laptop-code{
+    font-size: xx-large;
+    color: darkgrey;
+}
+.fas.fa-robot{
+    font-size: xx-large;
+    color: darkgrey;
+}
+.fas.fa-guitar{
+    font-size: xx-large;
+    color: darkgrey;
+}
+.fas.fa-user-ninja{
+    font-size: xx-large;
+    color: darkgrey;
+}

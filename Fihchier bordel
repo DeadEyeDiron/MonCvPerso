@@ -13,26 +13,13 @@ Where sides is one of:
     y - for classes that set both *-top and *-bottom
     blank - for classes that set a margin or padding on all 4 sides of the element
 
-<table>
-                        <thead>
-                            <h1 class="text-center">Groupe 3</h1>
-                        </thead>
-                        <tbody>
-                            <tr class="text-xl-center text-lg-center text-md-center text-sm-center text-xs-center">
-                                <td class="ps-xl-4"><a class="fab fa-github" href="http://www.github.com" target="_blank"></a></td>
-                                <td class="ps-xl-5"><p>VersMonGithub</p></td>
-                            </tr>
-                            <tr class="text-xl-center text-lg-center text-md-center text-sm-center text-xs-center">
-                                <td class="ps-xl-4"><i class="fab fa-discord" href="http://www.discord.com/" target="_blank"></i></td>
-                                <td class="ps-xl-5"><p>moi#343432</p></td>
-                            </tr>
-                            <tr class="text-xl-center text-lg-center text-md-center text-sm-center text-xs-center">
-                                <td class="ps-xl-4"><i class="fab fa-skype" href="http://www.skype.com/" target="_blank"></i></td>
-                                <td class="ps-xl-5"><p>MoiMoi3434</p></td>
-                            </tr>
-                            <tr class="text-xl-center text-lg-center text-md-center text-sm-center text-xs-center">
-                                <td class="ps-xl-4"><i class="fab fa-telegram" href="http://www.telegram.com/" target="_blank"></i></td>
-                                <td class="ps-xl-5"><p>@MOIBLAMOI</p></td>
-                            </tr>
-                        </tbody>
-                    </table>
+.fas.fa-running{}
+.fas.fa-medal{}
+.fas.fa-tv{}
+.fas.fa-rocket{}
+.fab.fa-jedi-order{}
+.fab.fa-old-republic{}
+.fas.fa-laptop-code{}
+.fas.fa-robot{}
+.fas.fa-guitar{}
+.fas.fa-user-ninja{}
