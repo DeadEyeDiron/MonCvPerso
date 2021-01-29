@@ -1,19 +1,19 @@
 /*Couleur du body*/
 body{
-    /*background-color: black;*/
+    background-color: black;
 }
 /*ID DES 3 ZONE*/
 
 #Menu{
-    background-color: greenyellow;
+    background-color: grey;
 }
 
 #Image{
-    background-color: blue;
+    background-color: grey;
 }
 
 #Text{
-    background-color: blueviolet;
+    background-color: grey;
 }
 
 /*Taille des icones*/
@@ -22,31 +22,37 @@ body{
 
 .fas.fa-align-justify{
     font-size: xx-large;
+    color: white;
 }
 
 .fas.fa-user{
     font-size: xx-large;
-    
+    color: purple;
 }
 
 .fas.fa-phone-alt{
     font-size: xx-large;
+    color: purple;
 }
 
 .fas.fa-user-graduate{
     font-size: xx-large;
+    color: purple;
 }
 
 .fas.fa-briefcase{
     font-size: xx-large;
+    color: purple;
 }
 
 .fas.fa-hourglass-half{
     font-size: xx-large;
+    color: purple;
 
 }
 .fas.fa-cloud-download-alt{
     font-size: xx-large;
+    color: white;
 }
 
 /*Classe de modificaiton de l'image*/
