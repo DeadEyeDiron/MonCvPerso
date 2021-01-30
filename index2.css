@@ -65,87 +65,99 @@ body{
 /*Classe de modification des logo des Réseaux sociaux*/
 .fas.fa-envelope{
     font-size: xx-large; 
-    color: darkgrey;
+    color: purple;
 }
 .fab.fa-facebook-square{
     font-size: xx-large;
-    color: darkgrey;
+    color: purple;
 }
 .fab.fa-github{
     font-size: xx-large;
-    color: darkgrey;
+    color: purple;
 }
 .far.fa-envelope{
     font-size: xx-large;
-    color: darkgrey;
+    color: purple;
 }
 .fab.fa-twitter-square{
     font-size: xx-large;
-    color: darkgrey;
+    color: purple;
 }
 .fab.fa-discord{
     font-size: xx-large;
-    color: darkgrey;
+    color: purple;
 }
 .fas.fa-mobile-alt{
     font-size: xx-large;
-    color: darkgrey;
+    color: purple;
 }
 .fab.fa-linkedin{
     font-size: xx-large;
-    color: darkgrey;
+    color: purple;
 }
 .fab.fa-skype{
     font-size: xx-large;
-    color: darkgrey;
+    color: purple;
 }
 .fas.fa-home{
     font-size: xx-large;
-    color: darkgrey;
+    color: purple;
 }
 .fab.fa-telegram{
     font-size: xx-large;
-    color: darkgrey;
+    color: purple;
 }
 
 /*Classe de modification des hobbies*/
 .fas.fa-running{
     font-size: xx-large;
-    color: darkgrey;
+    color: purple;
 }
 .fas.fa-medal{
     font-size: xx-large;
-    color: darkgrey;
+    color: purple;
 }
 .fas.fa-tv{
     font-size: xx-large;
-    color: darkgrey;
+    color: purple;
 }
 .fas.fa-rocket{
     font-size: xx-large;
-    color: darkgrey;
+    color: purple;
 }
 .fab.fa-jedi-order{
     font-size: xx-large;
-    color: darkgrey;
+    color: purple;
 }
 .fab.fa-old-republic{
     font-size: xx-large;
-    color: darkgrey;
+    color: purple;
 }
 .fas.fa-laptop-code{
     font-size: xx-large;
-    color: darkgrey;
+    color: purple;
 }
 .fas.fa-robot{
     font-size: xx-large;
-    color: darkgrey;
+    color: purple;
 }
 .fas.fa-guitar{
     font-size: xx-large;
-    color: darkgrey;
+    color: purple;
 }
 .fas.fa-user-ninja{
     font-size: xx-large;
-    color: darkgrey;
+    color: purple;
+}
+
+#TITRE{
+    color:darkgrey;
+}
+
+#TEXT{
+    color : red;
+}
+
+#SUBTITRE{
+    color: pink;
 }
