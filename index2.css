@@ -1,21 +1,45 @@
 /*Couleur du body*/
 body{
-    background-color: black;
+    background: rgb(0,100,148);
+    background: linear-gradient(38deg, rgba(0,100,148,1) 0%, rgba(5,130,202,1) 53%, rgba(0,166,251,1) 100%); 
 }
 /*ID DES 3 ZONE*/
 
 #Menu{
-    background-color: grey;
+    background: rgba(255, 254, 254, 0.30);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 11.0px );
+    -webkit-backdrop-filter: blur( 11.0px );
+    border-radius: 0px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
-
 #Image{
-    background-color: grey;
+    background: rgba(255, 254, 254, 0.30);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 11.0px );
+    -webkit-backdrop-filter: blur( 11.0px );
+    border-radius: 0px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 #Text{
-    background-color: grey;
+    background: rgba(255, 254, 254, 0.30);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 11.0px );
+    -webkit-backdrop-filter: blur( 11.0px );
+    border-radius: 0px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
+/*test glassmorphism*/
+
+/*background: rgba( 126, 120, 120, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.0px );
+-webkit-backdrop-filter: blur( 11.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+*/
 /*Taille des icones*/
 
 /*Logo du Bloc de Menu*/
