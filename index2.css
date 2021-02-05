@@ -1,34 +1,38 @@
 /*Couleur du body*/
 body{
-    background: rgb(0,100,148);
-    background: linear-gradient(38deg, rgba(0,100,148,1) 0%, rgba(5,130,202,1) 53%, rgba(0,166,251,1) 100%); 
+    /*background: rgb(0,100,148);
+    background: linear-gradient(38deg, rgba(0,100,148,1) 0%, rgba(5,130,202,1) 53%, rgba(0,166,251,1) 100%); */
+    background-color: black;
 }
 /*ID DES 3 ZONE*/
 
 #Menu{
-    background: rgba(255, 254, 254, 0.30);
+    /*background: rgba(255, 254, 254, 0.30);*/
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 11.0px );
     -webkit-backdrop-filter: blur( 11.0px );
     border-radius: 0px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    background-color:rgba(246, 246, 246, 0.30);
 }
 #Image{
-    background: rgba(255, 254, 254, 0.30);
+    /*background: rgba(255, 254, 254, 0.30);*/
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 11.0px );
     -webkit-backdrop-filter: blur( 11.0px );
     border-radius: 0px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    background-color:rgba(246, 246, 246, 0.30);
 }
 
 #Text{
-    background: rgba(255, 254, 254, 0.30);
+    /*background: rgba(255, 254, 254, 0.30);*/
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 11.0px );
     -webkit-backdrop-filter: blur( 11.0px );
     border-radius: 0px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    background-color:rgba(246, 246, 246, 0.30);
 }
 
 /*test glassmorphism*/
@@ -51,27 +55,27 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 .fas.fa-user{
     font-size: xx-large;
-    color: purple;
+    color: rgb(184, 3, 184);
 }
 
 .fas.fa-phone-alt{
     font-size: xx-large;
-    color: purple;
+    color: rgb(184, 3, 184);
 }
 
 .fas.fa-user-graduate{
     font-size: xx-large;
-    color: purple;
+    color: rgb(184, 3, 184);
 }
 
 .fas.fa-briefcase{
     font-size: xx-large;
-    color: purple;
+    color: rgb(184, 3, 184);
 }
 
 .fas.fa-hourglass-half{
     font-size: xx-large;
-    color: purple;
+    color: rgb(184, 3, 184);
 
 }
 .fas.fa-cloud-download-alt{
@@ -89,99 +93,117 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 /*Classe de modification des logo des Réseaux sociaux*/
 .fas.fa-envelope{
     font-size: xx-large; 
-    color: purple;
+    color: rgb(184, 3, 184);
 }
 .fab.fa-facebook-square{
     font-size: xx-large;
-    color: purple;
+    color: rgb(184, 3, 184);
 }
 .fab.fa-github{
     font-size: xx-large;
-    color: purple;
+    color: rgb(184, 3, 184);
 }
 .far.fa-envelope{
     font-size: xx-large;
-    color: purple;
+    color: rgb(184, 3, 184);
 }
 .fab.fa-twitter-square{
     font-size: xx-large;
-    color: purple;
+    color: rgb(184, 3, 184);
 }
 .fab.fa-discord{
     font-size: xx-large;
-    color: purple;
+    color: rgb(184, 3, 184);
 }
 .fas.fa-mobile-alt{
     font-size: xx-large;
-    color: purple;
+    color: rgb(184, 3, 184);
 }
 .fab.fa-linkedin{
     font-size: xx-large;
-    color: purple;
+    color: rgb(184, 3, 184);
 }
 .fab.fa-skype{
     font-size: xx-large;
-    color: purple;
+    color: rgb(184, 3, 184);
 }
 .fas.fa-home{
     font-size: xx-large;
-    color: purple;
+    color: rgb(184, 3, 184);
 }
 .fab.fa-telegram{
     font-size: xx-large;
-    color: purple;
+    color: rgb(184, 3, 184);
 }
 
 /*Classe de modification des hobbies*/
 .fas.fa-running{
     font-size: xx-large;
-    color: purple;
+    color: rgb(184, 3, 184);
 }
 .fas.fa-medal{
     font-size: xx-large;
-    color: purple;
+    color: rgb(184, 3, 184);
 }
 .fas.fa-tv{
     font-size: xx-large;
-    color: purple;
+    color: rgb(184, 3, 184);
 }
 .fas.fa-rocket{
     font-size: xx-large;
-    color: purple;
+    color: rgb(184, 3, 184);
 }
 .fab.fa-jedi-order{
     font-size: xx-large;
-    color: purple;
+    color: rgb(184, 3, 184);
 }
 .fab.fa-old-republic{
     font-size: xx-large;
-    color: purple;
+    color: rgb(184, 3, 184);
 }
 .fas.fa-laptop-code{
     font-size: xx-large;
-    color: purple;
+    color: rgb(184, 3, 184);
 }
 .fas.fa-robot{
     font-size: xx-large;
-    color: purple;
+    color: rgb(184, 3, 184);
 }
 .fas.fa-guitar{
     font-size: xx-large;
-    color: purple;
+    color: rgb(184, 3, 184);
 }
 .fas.fa-user-ninja{
     font-size: xx-large;
-    color: purple;
+    color: rgb(184, 3, 184);
 }
 
 #TITRE{
-    color:darkgrey;
+    /*color:#A6732E;*/
+    /*color: #5AD1BD;*/
+    color: #58e6afd2;
 }
 
 #TEXT{
-    color : red;
+    /*color : #F2BC74;*/
+    /*color: #F2D15C;*/
+    /*color: #8083a1;*/
+    color: whitesmoke
 }
 
 #SUBTITRE{
-    color: pink;
+    /*color: #F5AB8E;*/
+    color: #35ebdfd2;
 }
+#AUTRE{
+    color: #eaf2747a;
+    font-style: italic;
+}
+/*Couleur Backgroud*/
+/*
+Background : #041AC9
+SousTitre ! #F5AB8E
+Text : #F2D15C
+Titre : #5AD1BD
+Incliné : #74C4F2
+*/
