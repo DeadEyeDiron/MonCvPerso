@@ -199,6 +199,15 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     color: #eaf2747a;
     font-style: italic;
 }
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    color: rgb(29, 29, 29);
+    text-align: center;
+}
 /*Couleur Backgroud*/
 /*
 Background : #041AC9
